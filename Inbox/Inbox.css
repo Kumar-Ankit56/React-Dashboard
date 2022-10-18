@@ -1,0 +1,139 @@
+.inboxmain {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: none;
+    height: calc(100vh - (120px + 3rem));
+    border: 1px solid rgba(76, 78, 100, 0.12);
+    width: 70%;
+    margin: 5% auto;
+}
+
+.sideinbox {
+    box-shadow: none;
+    width: 260px;
+    z-index: 2;
+    position: static;
+    border-right: 1px solid rgba(76, 78, 100, 0.12);
+    ;
+}
+
+.topside {
+    padding: 1.25rem;
+    overflow-y: hidden;
+}
+
+.compose {
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: rgb(255, 255, 255);
+    min-width: 64px;
+    background-color: rgb(102, 108, 255);
+    width: 100%;
+    font-weight: 500;
+    border-radius: 8px;
+    line-height: 1.715;
+    box-shadow: rgb(76 78 100 / 42%) 0px 4px 8px -4px;
+    padding: 0.4375rem 1.375rem;
+}
+.topsidenext{
+    position: relative;
+    height: 100%;
+}
+.inboxcontent{
+    padding-top: 0.3125rem;
+    overflow-y: hidden;
+    list-style: none;
+    margin: 0px;
+    padding: 8px 0px;
+    position: relative;
+}
+a{
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 0.125rem 1.25rem 0rem;
+    margin-bottom: 0.5rem;
+    color:rgba(76, 78, 100, 0.68);
+}
+.inbox{
+    border-left: 3px solid rgb(102, 108, 255);
+}
+h6{
+    font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: rgba(76, 78, 100, 0.38);
+    margin: .2rem 1.5rem 0.1rem;
+    line-height: 0.95rem;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+.lastnextSide{
+    list-style: none;
+    margin: 0px;
+    padding: 0.25rem 0px 8px;
+    position: relative;
+}
+.inboxmainright{
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.searchmain{
+    width: 100%;
+}
+.sidemain{
+    width: 100%;
+}
+.searchmaininteranl{
+    padding: 0.5rem 6px 0.5rem 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchiconinbox{
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1em;
+    height: 0.5em;
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.375rem;
+    margin-right: 10px;
+}
+.searchboxinboox{
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentcolor;
+    padding: 4px 0px 5px;
+    border: 0px;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    animation-name: mui-auto-fill-cancel;
+    animation-duration: 10ms;
+}
